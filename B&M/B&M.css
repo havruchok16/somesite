@@ -1,0 +1,384 @@
+body{
+    background-color:white;
+    background-size: 100%;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: auto;
+}
+#home{
+    height: 1px;
+}
+#nav{
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    background-color: rgba(255, 255, 255, 0.76);
+}
+#nav:hover, #hav:active{
+    background-color: white;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    padding-left: 2%;
+
+}
+#logo{
+    background-color: black;
+    color:white;
+    font-family:'Lucida Sans', sans-serif;
+    font-size: 50px;
+    padding: 5px 15px 5px 15px;
+    margin: 0% 3% 0% 3%;
+}
+nav a{
+    margin: 0% 2% 0% 2%;
+    color:rgb(112, 112, 112);
+    text-decoration: none;
+    font-family:Century Gothic;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.089);
+}
+nav a:hover{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    font-family:Century Gothic;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+header{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+header div{
+    text-align: center;
+}
+header a{
+    text-align: center;
+    text-decoration: none;
+    font-family:Century Gothic;
+    letter-spacing: 1px;
+    background-color:white;
+    border:solid 1px;
+    border-color: black;
+    padding: 20px 30px 20px 30px;
+    margin-top: 2%;
+    color:black;
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.041);
+}
+header a:hover, header a:active{
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.116);
+}
+#circle{
+    height: 100px;
+    margin-top: 15%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center; 
+}
+#circle div{
+    text-align: center;
+}
+#h1{
+    font-family:  Century Gothic;
+    font-size: 50px;
+    margin-bottom: 0%;
+    color:black;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+#h2{
+    font-family: GABRIOLA;
+    font-size: 29px;
+    margin-top: 0%;
+    color:#A8A8A8;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+#about{
+    background-image: url("images/about.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 1000px;
+    margin-top:2%;
+    padding-top: 8%;
+}
+#years{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+#years div{
+    color:white;
+    font-family: Century Gothic;
+    line-height: 170%;
+    font-size: 16px;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.171);
+}
+#years div span{
+    color:white;
+    font-family: Century Gothic;
+    line-height: 150%;
+    font-size: 34px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.171);
+}
+.one span, .three span{
+    margin-left: 315px;
+}
+.one{
+    height: 100px;
+    width: 500px;
+    margin-left: 18%;
+    padding-bottom: 1%;
+    align-items: center;
+}
+.two{
+    height: 100px;
+    width: 500px;
+    margin-left: 55%;
+    padding-bottom: 4%;    
+    align-items: center;
+}
+.three{
+    height: 100px;
+    width: 500px;
+    margin-left: 18%;
+    padding-bottom: 6%;
+    align-items: center;
+}
+.four{
+    height: 100px;
+    width: 500px;
+    margin-left: 55%;
+    align-items: center;
+}
+#team div{
+    padding-top: 2%;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+#blocks{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5%;
+}
+.block{
+    margin: 15% 7% 0% 7%;
+    width: 300px;
+    height: 300px;
+    
+}
+.block2{
+    margin-top: 1%;
+    width: 300px;
+    height: 300px;
+}
+.block div, .block2 div{
+    text-align: center;
+}
+.textMan1{
+    font-family: Century Gothic;
+    font-size: 25px;
+    margin-bottom: 1%;
+    text-align: center;
+    color:black;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.textMan2{
+    font-family: Century Gothic;
+    font-size: 12px;
+    margin-top: 0%;
+    color:#A8A8A8;
+    text-align: center;
+    text-shadow: 0.1px 0.1px 1px rgba(0, 0, 0, 0.3);
+}
+.imgNetz{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.imgNetz a{
+    text-decoration: none;
+    margin:3% 5% 0% 5%;
+}
+#service{
+    height: 1200px;
+    background-image: url("images/service.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top:15%;
+    padding-top: 12%;
+}
+#headerService{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#headerService p{
+    text-align: center;
+}
+#h3{
+    font-family: Century Gothic;
+    font-size: 50px;
+    margin-bottom: 0%;
+    color:white;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.171);
+}
+#h4{
+    font-family: GABRIOLA;
+    font-size: 29px;
+    margin-top: 0%;
+    color:#A8A8A8;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.171);
+}
+#blocksServices{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 2%;
+}
+.blockService{
+    margin: 5% 7% 0% 7%;
+    width: 300px;
+    height: 300px;
+}
+.blockService2{
+    margin-top: 5%;
+    width: 300px;
+    height: 300px;
+}
+.blockService div, .blockService2 div{
+    text-align: center;
+}
+.textServise1{
+    font-family: Century Gothic;
+    font-size: 25px;
+    margin-bottom: 1%;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.171);
+}
+.textServise2{
+    font-family: Century Gothic;
+    font-size: 12px;
+    margin-top: 0%;
+    color:#A8A8A8;
+    text-align: center;
+    text-shadow: 0.1px 0.1px 1px rgba(255, 255, 255, 0.171);
+}
+#blog{
+    padding-top: 3%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+#blog a{
+    text-align: center;
+    text-decoration: none;
+    font-family:Century Gothic;
+    letter-spacing: 1px;
+    background-color:white;
+    border:solid 1px;
+    border-color: black;
+    padding: 20px 30px 20px 30px;
+    margin-top: 2%;
+    color:black;
+    font-weight: bold;
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.068);
+}
+#blog a:hover, #blog a:active{
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.13);
+}
+#contact div{
+    padding-top: 2%;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+}
+.log{
+    margin:2% 2% 0% 2%;
+    height: 100px;
+    width: 200px;
+}
+#contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5%;
+}
+.log div{
+    text-align: center;
+}
+.loggg{
+    font-family:Century Gothic;
+    font-size: 16px;
+    margin-top: 5%;
+    color:#A8A8A8;
+    text-align: center;
+    text-shadow: 0.1px 0.1px 1px rgba(0, 0, 0, 0.3);
+}
+form{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin:8% 25% 8% 25%;
+}
+input{
+    border: solid 1px;
+    height: 40px;
+    width: 100%;
+    font-size:100%;
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0.1px 0.1px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.041);
+}
+textarea{
+    border: solid 1px;
+    height: 150px;
+    width: 97%;
+    padding:10px;
+    font-size:100%;
+    text-align: left;
+    font-family: Century Gothic;
+    text-shadow: 0.1px 0.1px 1px rgba(0, 0, 0, 0.3);
+}
+#submit{
+    background-color: black;
+    height: 45px;
+    width: 100%;
+    color:white;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Century Gothic;
+    text-shadow: 0.1px 0.1px 1px rgba(0, 0, 0, 0.3); 
+}
+#submit:hover, #submit:active{
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.178);
+}
+
+
+
+
